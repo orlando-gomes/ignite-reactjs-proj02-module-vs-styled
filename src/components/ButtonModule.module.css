@@ -1,0 +1,21 @@
+.button {
+  width: 100px;
+  height: 40px;
+  margin: 0 4px 0 4px;
+}
+
+.primary {
+  background-color: purple;
+}
+
+.secondary {
+  background-color: blue;
+}
+
+.danger {
+  background-color: red;
+}
+
+.neutral {
+  background-color: gray;
+}
