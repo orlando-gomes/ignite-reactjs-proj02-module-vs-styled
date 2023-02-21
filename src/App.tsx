@@ -1,12 +1,14 @@
+import { ThemeProvider } from 'styled-components'
 import './App.css'
 import { ButtonModule } from "./components/ButtonModule"
 import { Button } from './components/Button'
 import { Button2 } from './components/Button2'
+import { defaultTheme } from './styles/theme/default'
 
 export function App() {
 
   return (
-    <>
+    <ThemeProvider theme={defaultTheme}>
 
     <div>
       <Button2 variant='primary' />
@@ -31,7 +33,7 @@ export function App() {
       <ButtonModule variant='neutral'/>
       <ButtonModule  disabled/>
     </div>
-    </>
+    </ThemeProvider>
   )
 }
 

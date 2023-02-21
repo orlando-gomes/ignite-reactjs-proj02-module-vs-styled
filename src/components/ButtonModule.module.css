@@ -9,7 +9,7 @@
 }
 
 .secondary {
-  background-color: blue;
+  background-color: orange;
 }
 
 .danger {
@@ -17,5 +17,5 @@
 }
 
 .neutral {
-  background-color: gray;
+  background-color: green;
 }
