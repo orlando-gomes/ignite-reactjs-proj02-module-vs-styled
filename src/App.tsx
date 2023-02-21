@@ -4,6 +4,7 @@ import { ButtonModule } from "./components/ButtonModule"
 import { Button } from './components/Button'
 import { Button2 } from './components/Button2'
 import { defaultTheme } from './styles/theme/default'
+import { optionalTheme } from './styles/theme/optional'
 
 export function App() {
 
